@@ -20,21 +20,34 @@ for headline in headlines:
     if text:
         print(text)
 
-
-with open("down_news.csv" , "w" , newline="" , encoding= "utf-8"  ) as file:
+with open("dawn_full_news.csv", "w", newline="", encoding="utf-8") as file:
     writer = csv.writer(file)
+    writer.writerow(["Title", "Link", "Content"])
 
-    writer.writerow([["Title", "Link"]])
-
-
-    for h in headline:
-        link_tag = h.find('a')
-    
-            
+    for h in headlines:
+        link_tag = h.find("a")
         if link_tag:
             title = link_tag.get_text(strip=True)
             link = link_tag.get("href")
-            
-            writer.writerow([title, link])
 
-print("Data successfully saved to dawn_news.csv")
+            # Agar link relative ho
+            if link.startswith("/"):
+                link = base_url + link
+
+            # Ab article page open karenge
+            article_response = requests.get(link, headers=headers)
+            article_soup = BeautifulSoup(article_response.text, "html.parser")
+
+            paragraphs = article_soup.find_all("p")
+
+            content = ""
+            for p in paragraphs:
+                content += p.get_text(strip=True) + " "
+
+            writer.writerow([title, link, content])
+
+            print("Saved:", title)
+
+            time.sleep(1)  
+
+print("Full articles saved successfully!")
