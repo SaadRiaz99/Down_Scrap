@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 import csv
 from datetime import datetime, timedelta
 
-def scrape_python_last_20_days():
+def scrape_last_20d():
     url = "https://www.python.org/blogs/"
     response = requests.get(url)
     soup = BeautifulSoup(response.text, "html.parser")
@@ -32,4 +32,4 @@ def scrape_python_last_20_days():
 
     print(" python_last20days.csv created successfully")
 
-scrape_python_last_20_days()
+scrape_last_20d()
