@@ -1,0 +1,33 @@
+PatientID,Name,Age,Gender,Phone,Address
+1,Ali Khan,25,Male,03001234501,Karachi
+2,Ahmed Raza,30,Male,03001234502,Lahore
+3,Sara Ahmed,28,Female,03001234503,Islamabad
+4,Ayesha Noor,22,Female,03001234504,Karachi
+5,Hassan Ali,35,Male,03001234505,Multan
+6,Zainab Fatima,27,Female,03001234506,Karachi
+7,Umar Farooq,40,Male,03001234507,Lahore
+8,Maria Khan,24,Female,03001234508,Faisalabad
+9,Usman Tariq,31,Male,03001234509,Karachi
+10,Laiba Noor,20,Female,03001234510,Hyderabad
+11,Bilal Ahmed,29,Male,03001234511,Karachi
+12,Sadia Malik,33,Female,03001234512,Lahore
+13,Kamran Shah,45,Male,03001234513,Peshawar
+14,Maham Ali,26,Female,03001234514,Islamabad
+15,Shahzaib Khan,32,Male,03001234515,Quetta
+16,Anaya Khan,23,Female,03001234516,Karachi
+17,Farhan Ali,38,Male,03001234517,Lahore
+18,Noor Fatima,21,Female,03001234518,Faisalabad
+19,Saad Ahmed,34,Male,03001234519,Karachi
+20,Hira Khan,28,Female,03001234520,Hyderabad
+21,Imran Shah,41,Male,03001234521,Multan
+22,Alina Raza,24,Female,03001234522,Lahore
+23,Naveed Khan,36,Male,03001234523,Peshawar
+24,Madiha Noor,27,Female,03001234524,Karachi
+25,Adeel Ahmed,39,Male,03001234525,Islamabad
+26,Komal Fatima,22,Female,03001234526,Faisalabad
+27,Shahid Ali,44,Male,03001234527,Karachi
+28,Sana Tariq,25,Female,03001234528,Multan
+29,Rizwan Ahmed,37,Male,03001234529,Lahore
+30,Mehak Noor,23,Female,03001234530,Karachi
+31,Sumaiya,23,Female,03001234530,Jhang
+32,Saad Bin Riaz,23,Female,03001234530,Karachi
