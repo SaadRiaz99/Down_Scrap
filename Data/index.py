@@ -33,7 +33,7 @@ def plot_student_marks():
     plt.ylabel("Marks")
     plt.legend()
 
-    plt.savefig('student_marks.png')  # Save the plot
+    plt.savefig('student_marks.png')  
     print("Plot saved as student_marks.png")
 
 plot_student_marks()

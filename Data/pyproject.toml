@@ -5,5 +5,8 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.14"
 dependencies = [
-    "matplotlib"
+    "matplotlib",
+    "pandas>=3.0.2",
+    "requests>=2.33.1",
+    "seaborn>=0.13.2",
 ]
