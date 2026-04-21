@@ -1,6 +1,8 @@
 import matplotlib.pyplot as plt
 
-def plot_data(x,y):
+print("Hello from data!")
+
+def plot_data():
     x = [1, 2, 3, 4]
     y = [10, 20, 25, 30]
 
@@ -10,6 +12,7 @@ def plot_data(x,y):
     plt.xlabel('X-axis')
     plt.ylabel('Y-axis')
 
-    plt.show()
+    plt.savefig('plot.png')  # Save instead of show
+    print("Plot saved as plot.png")
 
 plot_data()
